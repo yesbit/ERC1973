@@ -15270,10 +15270,24 @@ input[type="submit"].form-control:focus {
   margin: auto;
   display: none;
 }
+.partner-wrapper{
+  width:100%;
+  overflow:hidden;
+  height:100px;
+}
 
-
+.featured-projects-slider{
+  margin-left:0px;
+  margin-right:0px;
+}
 .member-photo{
-  width:200px;
+  width:150px;
+}
+
+[class*="col-"]{
+  padding-right: 0px;
+  padding-left:0px;
+
 }
 /**
   *	-------------------------------------------------------------------------------
